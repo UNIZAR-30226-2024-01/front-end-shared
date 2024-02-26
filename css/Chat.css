@@ -35,7 +35,8 @@
   align-items: center;
 }
 
-.chat-container div svg {
+.chat-container div svg,
+.chat-container div .chat-desplegable {
   width: 30px;
   height: 30px;
   fill: #ffffff;
