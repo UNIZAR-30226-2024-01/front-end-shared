@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-.tarjeta div svg {
+.tarjeta div svg s{
     width: 30px;
     height: 30px;
     fill: #ffffff;
@@ -87,7 +87,17 @@
     margin: 0;
 }
 
-td {
+
+.td {
+    background-color: red;
+}
+
+
+.miClaseNueva {
+    background-color: yellow;
+
+}
+td , .td{
     text-align: left;
     font-weight: 500;
     font-size: 14px;
@@ -98,7 +108,7 @@ td {
     max-height: 18px;
 }
 
-td:not(:first-child) {
+td:not(:first-child), .td:not(:first-child) {
     text-align: center;
     font-weight: 1000;
     font-size: 16px;
