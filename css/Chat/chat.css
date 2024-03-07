@@ -1,4 +1,5 @@
 .chat-container {
+  box-sizing:content-box;
   position: absolute;
   top: 0;
   left: 0;
