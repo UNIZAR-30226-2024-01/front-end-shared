@@ -13,12 +13,14 @@
   background-color: #f3f3f3;
   border-radius: 10px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+
+  padding: 0;
+
   transition:all 0.5s ;
   border: 20px solid #1315a2; 
 }
 
-.chat-container div {
+.chat-container .desplegable {
   position: absolute;
   height: 20px;
   top: 50%;
@@ -27,7 +29,11 @@
   background-color: #1315a2;
   color: #ffffff;
   border-radius: 10px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 10px;
+
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -36,7 +42,7 @@
   align-items: center;
 }
 
-.chat-container div svg {
+.chat-container .desplegable svg {
   width: 30px;
   height: 30px;
   fill: #ffffff;
@@ -46,7 +52,7 @@
   transition: all 1s;
 }
 
-.chat-container div:hover {
+.chat-container .desplegable:hover {
   cursor: pointer;
   background-color: #3a3dd2;
 }
