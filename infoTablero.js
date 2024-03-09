@@ -1,5 +1,18 @@
+export const infoHabitaciones = [
+    { roomName:"Aulas Norte", roomNumber: 1, style:{left:'3.5%', top:'7%'}},
+    { roomName:"Recepción", roomNumber: 2, style:{left:'40.5%', top:'11%'}},
+    { roomName:"Laboratorio", roomNumber: 3, style:{left:'74%', top:'12.5%'}},
+    { roomName:"Escaleras", roomNumber: 4, style:{left:'6%', top:'33%'}},
+    { roomName:"ADA BYRON", roomNumber: 5, style:{left:'38.5%', top:'41%'}},
+    { roomName:"Biblioteca", roomNumber: 6, style:{left:'74%', top:'47.5%'}},
+    { roomName:"Baños", roomNumber: 7, style:{left:'6%', top:'58%'}},
+    { roomName:"Despacho", roomNumber: 8, style:{left:'3.5%', top:'86%'}},
+    { roomName:"Cafetería", roomNumber: 9, style:{left:'41%', top:'80.5%'}},
+    { roomName:"Aulas Sur", roomNumber: 10, style:{left:'77%', top:'84%'}}
+]
+
 export const infoTablero = [
-    { isRoom: true,  roomName: '1', isStartingCell: false, isWalkable: true, isDoor: false, idx:0 },
+    { isRoom: true,  roomName: '1', isStartingCell: false, isWalkable: true, isDoor: '10', idx:0 },
     { isRoom: true,  roomName: '1', isStartingCell: false, isWalkable: true, isDoor: false, idx:1 },
     { isRoom: true,  roomName: '1', isStartingCell: false, isWalkable: true, isDoor: false, idx:2 },
     { isRoom: true,  roomName: '1', isStartingCell: false, isWalkable: true, isDoor: false, idx:3 },
@@ -22,7 +35,7 @@ export const infoTablero = [
     { isRoom: true,  roomName: '3', isStartingCell: false, isWalkable: true, isDoor: false, idx:20 },
     { isRoom: true,  roomName: '3', isStartingCell: false, isWalkable: true, isDoor: false, idx:21 },
     { isRoom: true,  roomName: '3', isStartingCell: false, isWalkable: true, isDoor: false, idx:22 },
-    { isRoom: true,  roomName: '3', isStartingCell: false, isWalkable: true, isDoor: false, idx:23 },
+    { isRoom: true,  roomName: '3', isStartingCell: false, isWalkable: true, isDoor: '8', idx:23 },
     { isRoom: true,  roomName: '1', isStartingCell: false, isWalkable: true, isDoor: false, idx:24 },
     { isRoom: true,  roomName: '1', isStartingCell: false, isWalkable: true, isDoor: false, idx:25 },
     { isRoom: true,  roomName: '1', isStartingCell: false, isWalkable: true, isDoor: false, idx:26 },
@@ -364,7 +377,7 @@ export const infoTablero = [
     { isRoom: true,  roomName: '7', isStartingCell: false, isWalkable: true, isDoor: false, idx:362 },
     { isRoom: true,  roomName: '7', isStartingCell: false, isWalkable: true, isDoor: false, idx:363 },
     { isRoom: true,  roomName: '7', isStartingCell: false, isWalkable: true, isDoor: false, idx:364 },
-    { isRoom: true,  roomName: '7', isStartingCell: false, isWalkable: true, isDoor: 'l', idx:365 },
+    { isRoom: true,  roomName: '7', isStartingCell: false, isWalkable: true, isDoor: 'r', idx:365 },
     { isRoom: false,  roomName: '', isStartingCell: false, isWalkable: true, isDoor: false, idx:366 },
     { isRoom: false,  roomName: '', isStartingCell: false, isWalkable: true, isDoor: false, idx:367 },
     { isRoom: false,  roomName: '', isStartingCell: false, isWalkable: true, isDoor: false, idx:368 },
@@ -551,7 +564,7 @@ export const infoTablero = [
     { isRoom: true,  roomName: '10', isStartingCell: false, isWalkable: true, isDoor: false, idx:549 },
     { isRoom: true,  roomName: '10', isStartingCell: false, isWalkable: true, isDoor: false, idx:550 },
     { isRoom: true,  roomName: '10', isStartingCell: false, isWalkable: true, isDoor: false, idx:551 },
-    { isRoom: true,  roomName: '8', isStartingCell: false, isWalkable: true, isDoor: false, idx:552 },
+    { isRoom: true,  roomName: '8', isStartingCell: false, isWalkable: true, isDoor: '3', idx:552 },
     { isRoom: true,  roomName: '8', isStartingCell: false, isWalkable: true, isDoor: false, idx:553 },
     { isRoom: true,  roomName: '8', isStartingCell: false, isWalkable: true, isDoor: false, idx:554 },
     { isRoom: true,  roomName: '8', isStartingCell: false, isWalkable: true, isDoor: false, idx:555 },
@@ -574,5 +587,5 @@ export const infoTablero = [
     { isRoom: true,  roomName: '10', isStartingCell: false, isWalkable: true, isDoor: false, idx:572 },
     { isRoom: true,  roomName: '10', isStartingCell: false, isWalkable: true, isDoor: false, idx:573 },
     { isRoom: true,  roomName: '10', isStartingCell: false, isWalkable: true, isDoor: false, idx:574 },
-    { isRoom: true,  roomName: '10', isStartingCell: false, isWalkable: true, isDoor: false, idx:575 } 
+    { isRoom: true,  roomName: '10', isStartingCell: false, isWalkable: true, isDoor: '1', idx:575 } 
 ]

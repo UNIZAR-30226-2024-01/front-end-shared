@@ -1,32 +1,33 @@
-.tablero {
-    /* background-color: #1315a2; */
-    background-color: white;
-    border: 2px solid black;
-    padding: 10px;
-    display: inline-block;
-    position: relative;
-    z-index: -1;
-}
-
-.fila {
-    display: flex;
-    flex-direction: row;
-}
-
 .celda {
-    width: 22px;
-    height: 22px;
-    border: 2px solid rgb(3, 3, 3);
+    /* box-sizing: content-box; */
+    /* width: 22px;
+    height: 22px; */
+    width: 26px;
+    height: 26px;
     margin: 1px;
+    max-width: 28px;
 }
 
 .celda:hover {
     background-color: #f2f2f2;
 }
 
-.celda img {
-    width: 100%;
-    height: 100%;
+.door {
+    position: absolute;
+    max-width: 28px;
+    max-height: 28px;
+} 
+.u {
+    top: 0;
+}
+.d {
+    bottom: 0;
+}
+.r {
+    right: 0;
+}
+.l {
+    left: 0;
 }
 
 .dark {
@@ -40,10 +41,11 @@
 }
 
 .room {
+    position: relative;
     height: 28px;
     width: 28px;
     margin: 0;
-    border: 0;
+    padding: 0;
 }
 
 .room:hover {
@@ -101,11 +103,10 @@
 }
 
 .invalid {
-    width: 22px;
-    height: 22px;
-    border: 2px solid black;
-    margin: 1px;
-    opacity: 0;
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    opacity: 0.5;
 }
 
 

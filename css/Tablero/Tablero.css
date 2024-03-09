@@ -1,0 +1,13 @@
+.tablero {
+    /* background-color: #1315a2; */
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+}
