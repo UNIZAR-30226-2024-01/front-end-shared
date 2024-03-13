@@ -16,4 +16,8 @@
     background-color: #cbcbcb;
     border-radius: 10px;
 }
+.message-list .gif {
+    margin-top: 6px;
+    border-radius: 5px;
+}
 

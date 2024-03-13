@@ -4,7 +4,7 @@
     display: flex;
 }
 
-button {
+.button-chat {
     background-color: #1315a2;
     color: #ffffff;
     border-radius: 10px;
@@ -18,16 +18,37 @@ button {
     align-items: center; */
 }
 
-button:hover {
+.button-chat:hover {
     cursor: pointer;
     background-color: #3a3dd2;
 }
 
 .input-message {
+    display: block;
     width: 70%; /* Ocupa el 70% del ancho disponible */
     border-radius: 10px;
     border: none;
     padding: 10px;
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.open-gif {
+    padding: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.gif-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.close-gif {
+    padding: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 10px;
+    height: 36px;
 }
