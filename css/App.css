@@ -14,9 +14,12 @@ body {
   height: 100%;
 }
 
-/* ESTO NO SÉ QUE ES, LOS DE REACT NO LO TENEIS IMPLEMENTADO EN NINGÚN SITIO */
-.logos-container {
-  /* background-color: #fff; */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* .logos-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +30,6 @@ body {
 
 .cart-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
-
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
-
-}
+} */
