@@ -1,0 +1,44 @@
+
+.container-progress {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-styles {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: 10px solid #000000;
+}
+
+/* .border {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    border: 10px solid #000000;
+} */
+
+.filler-styles {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    transition: width 1s ease-in-out;
+    border-radius: inherit;
+    text-align: right;
+}
+
+.label-styles {
+    width: 30px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
