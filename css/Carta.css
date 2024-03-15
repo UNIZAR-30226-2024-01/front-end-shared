@@ -3,7 +3,7 @@
     background: radial-gradient(circle, rgba(55,57,138,1) 0%, rgba(19,19,61,1) 59%, rgba(3,4,51,1) 100%);
 
     color: #fff;
-    width: 200px;
+    width: 190px;
     aspect-ratio: 1/1.4;
 
     /* border: 5px solid #1315a2; */
@@ -53,4 +53,5 @@
 
 .carta h1 {
     font-weight: 650;
+    font-size: 26px ;
 }
