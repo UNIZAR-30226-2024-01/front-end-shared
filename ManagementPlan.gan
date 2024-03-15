@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Management_plan" company="UNIZAR-30226-2024-01" webLink="http://" view-date="2024-02-28" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3300" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Management_plan" company="UNIZAR-30226-2024-01" webLink="http://" view-date="2024-02-09" view-index="0" gantt-divider-location="435" resource-divider-location="300" version="3.3.3300" locale="en_US">
     <description><![CDATA[Management plan for the workflow to follow during the project]]></description>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="200" order="0"/>
-        <field id="tpd4" name="Begin date" width="75" order="1"/>
-        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd3" name="Name" width="248" order="0"/>
+        <field id="tpd4" name="Begin date" width="93" order="1"/>
+        <field id="tpd5" name="End date" width="93" order="2"/>
         <field id="tpd15" name="Notes" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
@@ -38,47 +38,44 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="2" uid="c836c818295941fe83e4d4de9cf3ebe5" name="Suspicion Card" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="false">
-            <task id="3" uid="6c76d83c21ad40ef9b1f4f33630b0bf8" name="dropdown" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
-            <task id="4" uid="96e48f77f2724f5ba5b2536785f15f2f" name="interactivity" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-            <task id="5" uid="e2157bb686ff4c0caa331368946ab64f" name="dynamic names with DB" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-            <task id="6" uid="b96f5c6757c94d70b1e641cb39f49152" name="state" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="7" uid="4b5b7404be2041d89a8b8f552d4f1fb4" name="Chat" meeting="false" start="2024-02-28" duration="1" complete="0" expand="false">
-            <task id="8" uid="a59b1d7eb0b8403ab20d1499d8f87be9" name="dropdown" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-            <task id="9" uid="83ddf83368a04ac6b56fa06152a3d253" name="styling css" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-            <task id="10" uid="4949717a0e554d139183d3242cfbf8e2" name="web sockets" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-            <task id="11" uid="abb5525a67ce4fd19ab42df37b9186a1" name="default messages" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="12" uid="9f7d0bf6f0304b83bbc8e794c9219d93" name="Board" meeting="false" start="2024-02-28" duration="1" complete="0" expand="false">
-            <task id="13" uid="fceeae05dcc94e71a43459d230d80d70" name="creating and styling" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-            <task id="14" uid="1ae1564b77b34b078b3c9bd07a360656" name="interoperativity between players" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-            <task id="15" uid="0adc2e5196c943b6980b77d2288e0a90" name="state" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
-                <notes><![CDATA[occupied tiles, ...]]></notes>
+        <task id="30" uid="c6e7bdef63cd4ff99350feb35159636b" name="Backend" meeting="false" start="2024-02-19" duration="1" complete="0" expand="true">
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+            <task id="31" uid="43ca7c0b327f4ea9a13e25f63a1ea0e0" name="modelo E/R" meeting="false" start="2024-02-19" duration="1" complete="0" expand="true"/>
+            <task id="32" uid="59ebe45e6d324fb99a4be7e54518c2f8" name="creación tablas" meeting="false" start="2024-02-19" duration="1" complete="0" expand="true"/>
+            <task id="34" uid="31e917130be94d6ca41c4878c703abea" name="despliegue BD real (CleverCloud)" meeting="false" start="2024-02-19" duration="1" complete="0" expand="true"/>
+            <task id="33" uid="27f3d7819ca24e30b0c4b953159477c5" name="api conectada a ambos frontends" meeting="false" start="2024-02-19" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="35" uid="19e90aab018f47d1821d0300080118d7" name="manejo peticiones http de clientes" meeting="false" start="2024-02-19" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Correcta gestión de peticiones http de los clientes. Ejemplos pueden ser: creación de cuenta (POST: insert en tabla usuario), guardado efectivo de tablero, cartas y tarjeta en cada ronda...]]></notes>
             </task>
+            <task id="44" uid="e3b06cc50bac4304b8da61c8a5dc3656" name="bots" meeting="false" start="2024-02-19" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="16" uid="80bb021eae674e9087828d8895ce7ca9" name="Menus" meeting="false" start="2024-02-28" duration="1" complete="0" expand="false">
-            <task id="17" uid="a08e0bd5c9a649ad928655855e0c1283" name="toolbar (options)" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-            <task id="18" uid="8927227bdfc5462c8eeaa8270e750500" name="submenus" meeting="false" start="2024-02-28" duration="1" complete="0" expand="false">
-                <task id="19" uid="5db0faf1d1504a63b467724f7de92c5e" name="user info" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
-                    <notes><![CDATA[change username, comsult xp]]></notes>
+        <task id="36" uid="59c54c13913941d2b7ee9071b717a338" name="Front-end Web" meeting="false" start="2024-02-26" duration="2" complete="0" thirdDate="2024-02-26" thirdDate-constraint="0" expand="false">
+            <task id="37" uid="4f601e9c288349fd96ffba536bffb770" name="crear cuenta / login" meeting="false" start="2024-02-26" duration="1" complete="0" expand="true"/>
+            <task id="38" uid="0f966f959a3746dea38c30971202069e" name="menú principal" meeting="false" start="2024-02-26" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Dentro se incluyen:
+-sección donde se muestra el nombre de usuario junto a una barra de la experiencia que posee ese usuario
+-sección donde se muestra una imagen del tablero del juego
+-sección donde aparecen las distintas posibilidades para unirser a una partida: nueva partida (multiplayer), nueva partida (solitario), unirse a partida existente, ...]]></notes>
+            </task>
+            <task id="42" uid="5388b7bd78dc4cae848b5ac9dfd079fd" name="enrutamiento" meeting="false" start="2024-02-26" duration="1" complete="0" expand="true"/>
+            <task id="43" uid="2ad2f52d0b074285bff7a25af9c3b6f8" name="tablero" meeting="false" start="2024-02-26" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="45" uid="0d41a949e1de490784b83f94330744ed" name="chat en tiempo real" meeting="false" start="2024-02-26" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="47" uid="752f7e5d5eba4664ad02e9637afe134c" name="tarjeta de sospecha" meeting="false" start="2024-02-26" duration="1" complete="0" expand="true"/>
+            <task id="48" uid="c6845a0ab2604c22a22f010299a97519" name="cartas" meeting="false" start="2024-02-26" duration="2" complete="0" expand="false">
+                <task id="51" uid="bb8ee73c507b40d2b043536543567363" name="diseño de las cartas" meeting="false" start="2024-02-26" duration="1" complete="0" expand="true">
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="20" uid="e65f812cf6074f72a2b91424fcb832b4" name="login" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-                <task id="21" uid="51a2de3d663541e9b1f6e7453657ca97" name="pausing game" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
-                <task id="22" uid="f0b283dd0756457499f9eafdac7103c5" name="join a game" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
+                <task id="52" uid="051973fe359247b2854c9c946187982e" name="cartas en partida" meeting="false" start="2024-02-27" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[hace alusión a la inclusión de las cartas en una partida, en la parte inferior de la pantalla con un desplegable para mostrarlas u ocultarlas.]]></notes>
+                </task>
+            </task>
+            <task id="49" uid="96988d520a10488db88fa39571e33119" name="dados" meeting="false" start="2024-02-26" duration="1" complete="0" expand="true"/>
+            <task id="50" uid="7af8c1cf73d3436fbc1caed80276dec6" name="pantalla info de la cuenta" meeting="false" start="2024-02-26" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Pantalla relativa a la información de la cuenta, donde aparece la posibilidad para cambiar el username y la password. Será accesible desde el menú (clicando en la zona que aparece el username y la barra de experiencia), y desde dentro de una partida (clicando en el dibujo que representa el usuario)]]></notes>
             </task>
         </task>
-        <task id="23" uid="e0fdb029bf834d4bb1fdc02bbc2fde28" name="Cards" meeting="false" start="2024-02-28" duration="1" complete="0" expand="false">
-            <task id="24" uid="79dbd3830d7a4b3b96e3d8529efb846b" name="dropdown" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
-            <task id="25" uid="045da474a15c476492bea418adda1da9" name="desing" meeting="false" start="2024-02-28" duration="1" complete="0" expand="false">
-                <task id="26" uid="5f945c9d3a7148b89b3f97a3bfa67a55" name="inner" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
-                <task id="27" uid="db9b32d6548f4028a2530fe978774d6a" name="exterior" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-            </task>
-            <task id="28" uid="17b941c707c04aa6b279c8ed48f9118f" name="deployed deck interface" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="29" uid="89ad9ddef0684e56857a8b434ff98e20" name="Dices" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
-            <notes><![CDATA[If there's an existing library, using it.
-If not, create it with basic random logic and css]]></notes>
+        <task id="53" uid="0ec744196d9242ba8e7c09dfff6bdf50" name="Análisis y diseño" meeting="false" start="2024-02-22" duration="1" complete="0" expand="false">
+            <task id="54" uid="7919169ccd174f49a7b3fb45282c51ca" name="diagrama de despliegue" meeting="false" start="2024-02-22" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources/>
