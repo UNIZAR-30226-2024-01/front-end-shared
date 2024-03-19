@@ -1,4 +1,4 @@
-div {
+/* div {
   position: absolute;
   height: 20px;
   top: 50%;
@@ -31,12 +31,10 @@ div:hover {
   }
 
 
-  /* Estilos específicos para el caso 'chat' */
 .chat {
   right: -14%;
 }
 
-/* Estilos específicos para el caso 'tarjeta' */
 .tarjeta {
   left: -7%;
-}
+} */
