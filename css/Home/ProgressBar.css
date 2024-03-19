@@ -40,10 +40,18 @@
     text-align: right;
 }
 
-.label-styles {
+.xp-percentage {
     width: 30px;
+    /* width: fit-content; */
     font-size: 20px;
     color: white;
     font-weight: bold;
-    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.xp-level {
+    position: relative;
+    width: 81px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
 }

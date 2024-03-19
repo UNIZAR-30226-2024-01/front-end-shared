@@ -42,7 +42,7 @@
     box-shadow: 0 0 10px rgba(81, 203, 238, 1);
 }
 
-.styled-link {
+.login-link {
     font-weight: 600;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -51,7 +51,7 @@
     margin: 8px 0;
 }
 
-.styled-button {
+.login-button {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0 18px 0;
@@ -64,4 +64,9 @@
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     transition: 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0e6c8a;
+    cursor: pointer;
 }
