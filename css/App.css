@@ -7,16 +7,21 @@ body {
   margin: 0;
   padding: 0;
 
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 
   height: 100%;
+  /* width: 100%; */
 }
 
-/* ESTO NO SÉ QUE ES, LOS DE REACT NO LO TENEIS IMPLEMENTADO EN NINGÚN SITIO */
-.logos-container {
-  /* background-color: #fff; */
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+/* .logos-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +32,6 @@ body {
 
 .cart-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
-
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
-
-}
+} */

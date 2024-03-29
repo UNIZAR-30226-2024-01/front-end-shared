@@ -1,6 +1,7 @@
 .message-list {
+    /* position: absolute; */
     list-style-type: none;
-    height: 100%;
+    height: 75vh;
     padding: 10px 10px 5px 10px;
     margin: 0;
     margin-left: 10px;
@@ -9,11 +10,3 @@
     display: flex;
     flex-direction: column;
 }
-
-.message-list .message {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #cbcbcb;
-    border-radius: 10px;
-}
-
