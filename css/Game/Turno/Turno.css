@@ -1,0 +1,30 @@
+.turno {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(0, 0, 0, 0.7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#turno-dados {
+  display: flex;
+  transition: all 0.5s;
+  &.turno-inactive {
+    transform: translate(calc(-50vw + 100%), calc(+50vh - 60%));
+  }
+}
+#turno-tablero {
+  display: none;
+}
+#turno-cartas {
+  display: none;
+}

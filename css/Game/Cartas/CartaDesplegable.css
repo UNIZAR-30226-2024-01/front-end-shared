@@ -7,7 +7,7 @@
     width: auto;
     height: auto;
     background-color: red;
-    z-index: 5;
+    z-index: 10;
 
     background-color: #f3f3f3;
     border-radius: 10px; 
