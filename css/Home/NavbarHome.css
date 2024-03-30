@@ -2,7 +2,6 @@
     position: fixed; /* Make the navbar fixed */
     top: 0; /* Position at the top */
     left: 0; /* Position on the left */
-    /* height: 100vh; Full height */
     display: flex;
     flex-direction: row;
     justify-content: start; /* Align items to the start */
