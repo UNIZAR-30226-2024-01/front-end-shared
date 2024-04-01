@@ -16,3 +16,9 @@
   cursor: pointer;
   margin: 5px;
 }
+
+.individual-character.selected {
+  background-color: rgb(191, 109, 109);
+  text-decoration: line-through;
+  font-style: italic;
+}
