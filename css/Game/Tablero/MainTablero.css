@@ -1,0 +1,27 @@
+.main-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.users-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65%;
+  padding: 0 30px;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+
+  min-height: 100px;
+
+  &.left {
+    align-items: flex-end;
+  }
+
+  &.right {
+    align-items: flex-start;
+  }
+}

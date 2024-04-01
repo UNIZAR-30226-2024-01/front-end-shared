@@ -1,0 +1,23 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+
+  &.left {
+    align-items: flex-end;
+  }
+
+  &.right {
+    align-items: flex-start;
+  }
+}
+
+.player h1 {
+  /* text-shadow: none; */
+}
+
+.player h2 {
+  /* text-shadow: none; */
+}
