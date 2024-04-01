@@ -1,26 +1,21 @@
-.turno {
-  position: absolute;
+.game-characters-selection {
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 5;
-
   width: 100vw;
   height: 100vh;
-
   background-color: rgb(0, 0, 0, 0.7);
-
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
-#turno-dados {
-  display: flex;
-  transition: all 0.5s;
-}
-
-.tu-turno-texto {
-  font-size: 200px;
-  color: white;
+.button-start-game {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 0;
+  padding: 10px;
+  z-index: 10000;
 }
