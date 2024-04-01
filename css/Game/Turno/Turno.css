@@ -18,13 +18,9 @@
 #turno-dados {
   display: flex;
   transition: all 0.5s;
-  &.turno-inactive {
-    transform: translate(calc(-50vw + 100%), calc(+50vh - 60%));
-  }
 }
-#turno-tablero {
-  display: none;
-}
-#turno-cartas {
-  display: none;
+
+.tu-turno-texto {
+  font-size: 200px;
+  color: white;
 }
