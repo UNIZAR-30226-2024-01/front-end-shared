@@ -1,23 +1,36 @@
+.main-player-in-tablero {
+  display: flex;
+  flex-direction: row;
+}
+
 .player {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   width: 100%;
   height: auto;
-
-  &.left {
-    align-items: flex-end;
-  }
+  gap: 5px;
+  padding: 0 10px;
 
   &.right {
-    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  &.turn {
+    background-color: #636161;
+    border-radius: 10px;
   }
 }
 
 .player h1 {
   /* text-shadow: none; */
+  align-items: center;
 }
 
 .player h2 {
   /* text-shadow: none; */
+}
+
+.player img {
+  width: 125px;
 }
