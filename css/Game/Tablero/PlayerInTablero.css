@@ -5,11 +5,11 @@
 
 .player {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: end;
   width: 100%;
   height: auto;
-  gap: 5px;
   padding: 0 10px;
 
   &.right {
@@ -24,7 +24,6 @@
 
 .player h1 {
   /* text-shadow: none; */
-  align-items: center;
 }
 
 .player h2 {
