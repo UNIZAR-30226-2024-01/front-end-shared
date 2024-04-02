@@ -1,16 +1,24 @@
+.main-player-in-tablero {
+  display: flex;
+  flex-direction: row;
+}
+
 .player {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: flex-end; */
+  align-items: end;
   width: 100%;
   height: auto;
-
-  &.left {
-    align-items: flex-end;
-  }
+  padding: 0 10px;
 
   &.right {
-    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  &.turn {
+    background-color: #636161;
+    border-radius: 10px;
   }
 }
 
@@ -20,4 +28,8 @@
 
 .player h2 {
   /* text-shadow: none; */
+}
+
+.player img {
+  width: 125px;
 }
