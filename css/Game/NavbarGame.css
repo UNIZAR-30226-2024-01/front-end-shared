@@ -36,6 +36,7 @@
 
 .navbar-game .menu p:last-child {
   margin-left: auto;
-  cursor: text;
+  cursor: pointer;
   text-decoration: underline;
+  font-style: italic;
 }
