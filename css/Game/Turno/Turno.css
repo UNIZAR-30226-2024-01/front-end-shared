@@ -20,6 +20,12 @@
   transition: all 0.5s;
 }
 
+#turno-cartas {
+  padding: 15px;
+  background-color: rgb(201, 194, 194);
+  border-radius: 15px;
+}
+
 .tu-turno-texto {
   font-size: 200px;
   color: white;
