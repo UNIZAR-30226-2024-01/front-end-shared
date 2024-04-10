@@ -13,7 +13,7 @@
   padding: 0 10px;
 
   &.right {
-    flex-direction: row-reverse;
+    align-items: start;
   }
 
   &.turn {

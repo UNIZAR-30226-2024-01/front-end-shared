@@ -1,6 +1,6 @@
 .navbar-game {
   position: absolute; /* Make the navbar fixed */
-  z-index: 10;
+  z-index: 15;
   top: 0; /* Position at the top */
   left: 15%; /* Position on the left */
   display: flex;
@@ -36,6 +36,7 @@
 
 .navbar-game .menu p:last-child {
   margin-left: auto;
-  cursor: text;
+  cursor: pointer;
   text-decoration: underline;
+  font-style: italic;
 }

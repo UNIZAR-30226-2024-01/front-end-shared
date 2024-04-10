@@ -1,20 +1,27 @@
 .characters-container {
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
+  flex-direction: column;
+  height: 350px;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .individual-character {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   background-color: lightgray;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   cursor: pointer;
   margin: 5px;
+}
+
+.individual-character:hover {
+  background-color: rgb(118, 115, 115);
 }
 
 .individual-character.selected {
