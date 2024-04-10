@@ -38,3 +38,8 @@ div:hover {
 .tarjeta {
   left: -7%;
 }
+
+.cartas{
+  right: -20%;
+  top: 35%;
+}
