@@ -3,6 +3,10 @@
     flex-direction: row;
 }
 
+.being-chosen {
+    z-index: 20;
+}
+
 .tablero {
     /* background-color: #1315a2; */
     background-color: white;

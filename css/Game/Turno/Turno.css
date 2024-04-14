@@ -17,13 +17,35 @@
 
 #turno-dados {
   display: flex;
+  flex-direction: column;
   transition: all 0.5s;
+
+  h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
 }
 
 #turno-cartas {
   padding: 15px;
   background-color: rgb(201, 194, 194);
   border-radius: 15px;
+}
+
+#turno-tablero {
+  /* Tamaño del tablero */
+  width: 696px;
+  height: 696px;
+
+  h1 {
+    position: absolute;
+    bottom: 90px;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
 }
 
 .tu-turno-texto {
