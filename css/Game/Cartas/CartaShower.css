@@ -1,0 +1,23 @@
+.carta-shower {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  padding: 20px;
+  border: 20px solid #1315a2;
+  border-radius: 30px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.carta-shower .carta-shower-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
