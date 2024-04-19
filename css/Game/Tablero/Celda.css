@@ -23,6 +23,10 @@
   background-color: #f2f2f2;
 }
 
+.celda-player img {
+  width: 26px;
+}
+
 .u {
   top: 0;
 }
@@ -115,32 +119,7 @@
   background-color: none;
 }
 
-.start-yellow svg {
-  fill: yellow;
-  color: black;
-}
-
-.start-purple svg {
-  fill: purple;
-  color: white;
-}
-
-.start-red svg {
-  fill: red;
-  color: white;
-}
-
-.start-green svg {
-  fill: green;
-  color: white;
-}
-
-.start-blue svg {
-  fill: blue;
-  color: white;
-}
-
-.start-black svg {
-  fill: black;
-  color: white;
+.filled svg circle {
+  stroke-width: 5px;
+  stroke: black;
 }
