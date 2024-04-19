@@ -24,6 +24,7 @@
 
 .player h1 {
   /* text-shadow: none; */
+  margin: 0;
 }
 
 .player h2 {
