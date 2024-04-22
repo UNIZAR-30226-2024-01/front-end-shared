@@ -4,7 +4,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   border: 20px solid #1315a2;
   border-radius: 30px;
   background-color: #fff;
@@ -20,4 +20,17 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+
+.carta-shower-button {
+  background-color: #1315a2;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+}
+
+.carta-shower-button:hover {
+  cursor: pointer;
+  background-color: #3a3dd2;
 }
