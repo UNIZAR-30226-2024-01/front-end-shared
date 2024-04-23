@@ -1,28 +1,34 @@
 .home-root {
+  height: 100vh;
   width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  gap: 150px;
 }
 
-.aux {
+/* If the height of the viewport is 800px or less, set a lower gap */
+@media (max-height: 800px) {
+  .home-root {
+    gap: 2px; /* Adjust as needed */
+  }
+}
+
+.home-info {
   width: 100%;
-  margin-top: 7%;
-  /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px; */
 }
 
 .home-username {
+  display: flex;
+  flex-direction: column;
   width: 500px;
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 50px;
+  color: white;
+  font-size: 50px;
 }
 
 .home-body {
@@ -51,6 +57,14 @@
   font-weight: 600;
   font-family: "Roboto", sans-serif;
   transition: 0.3s;
+  
+  &.add-buttons-space {
+    margin-bottom: 50px;
+  }
+}
+
+.gamemode-button.active {
+  outline: 8px solid #ffffff; /* Outline for emphasis */
 }
 
 .gamemode-button:hover {
