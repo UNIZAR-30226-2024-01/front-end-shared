@@ -14,6 +14,8 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+
+  transition: none;
 }
 
 .carta-shower .carta-shower-container {
@@ -33,4 +35,17 @@
 .carta-shower-button:hover {
   cursor: pointer;
   background-color: #3a3dd2;
+}
+
+.carta {
+  &.blocked {
+    opacity: 0.8;
+    filter: grayscale(100%);
+  }
+  &.not-blocked {
+    cursor: pointer;
+  }
+  &.not-blocked:hover {
+    transform: scale(1.02);
+  }
 }
