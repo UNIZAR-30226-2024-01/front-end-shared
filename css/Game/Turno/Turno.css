@@ -31,7 +31,40 @@
 #turno-cartas {
   padding: 15px;
   background-color: rgb(201, 194, 194);
-  border-radius: 15px;
+  border-radius: 30px;
+  border: 20px solid #1315a2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+#turno-cartas button {
+  width: fit-content;
+  margin-top: 30px;
+  background-color: #1315a2;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+}
+
+#turno-cartas button:hover {
+  cursor: pointer;
+  background-color: #3a3dd2;
+}
+
+.carta-quien,
+.carta-arma,
+.carta-donde {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: flex-start;
+  align-items: center;
+  gap: 10px;
 }
 
 #turno-tablero {
@@ -52,4 +85,13 @@
 .tu-turno-texto {
   font-size: 200px;
   color: white;
+}
+
+.container-cartas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 100px;
 }
