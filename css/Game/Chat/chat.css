@@ -57,3 +57,26 @@
   cursor: pointer;
   background-color: #3a3dd2;
 }
+
+.desplegable-circle-message {
+  position: absolute;
+  top: 7%;
+  transform: translateY(-50%);
+  right: -28%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 2;
+  aspect-ratio: 1/1;
+  width: 25px;
+  background-color: rgb(198, 15, 15);
+  border-radius: 50%;
+  padding: 0;
+  border: 0;
+  /* Center vertically the text */
+  &p {
+    margin: 0;
+  }
+}
