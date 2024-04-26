@@ -29,31 +29,83 @@
 }
 
 #turno-cartas {
+  position: relative;
   padding: 15px;
   background-color: rgb(201, 194, 194);
   border-radius: 30px;
-  border: 20px solid #1315a2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   gap: 20px;
+
+  &.sospecha {
+    border: 20px solid #1315a2;
+  }
+
+  &.acusacion {
+    border: 20px solid #a21513;
+  }
 }
 
-#turno-cartas button {
+#turno-cartas .turno-boton-acusacion-final {
+  position: absolute;
+  top: 1%;
+  right: 0.5%;
+  margin: 0;
+  z-index: 10;
+
+  width: fit-content;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
+
+  min-width: 175px;
+
+  &.acusacion {
+    background-color: #1315a2;
+    &:hover {
+      cursor: pointer;
+      background-color: #3a3dd2;
+    }
+  }
+
+  &.sospecha {
+    background-color: #a21513;
+    &:hover {
+      cursor: pointer;
+      background-color: #d23a3a;
+    }
+  }
+}
+
+#turno-cartas .turno-boton-sospecha {
   width: fit-content;
   margin-top: 30px;
-  background-color: #1315a2;
   color: #ffffff;
   border-radius: 10px;
   border: none;
   padding: 10px 20px;
-}
 
-#turno-cartas button:hover {
-  cursor: pointer;
-  background-color: #3a3dd2;
+  min-width: 180px;
+
+  &.sospecha {
+    background-color: #1315a2;
+    &:hover {
+      cursor: pointer;
+      background-color: #3a3dd2;
+    }
+  }
+
+  &.acusacion {
+    background-color: #a21513;
+    &:hover {
+      cursor: pointer;
+      background-color: #d23a3a;
+    }
+  }
 }
 
 .carta-quien,

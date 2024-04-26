@@ -57,10 +57,10 @@
   font-weight: 600;
   font-family: "Roboto", sans-serif;
   transition: 0.3s;
-  
-  &.add-buttons-space {
-    margin-bottom: 50px;
-  }
+}
+
+.gamemode-button:nth-child(2){
+  margin-bottom: 50px;
 }
 
 .gamemode-button.active {

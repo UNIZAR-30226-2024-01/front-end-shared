@@ -1,3 +1,18 @@
+.characters-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.characters-selection h1 {
+  background-color: lightgray;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .characters-container {
   display: flex;
   flex-wrap: wrap;
