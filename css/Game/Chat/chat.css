@@ -76,7 +76,7 @@
   padding: 0;
   border: 0;
   /* Center vertically the text */
-  &p {
+  :is(p) {
     margin: 0;
   }
 }
