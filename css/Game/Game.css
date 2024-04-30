@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
 
-  gap: 130px;
+  gap: 40px;
 
   box-sizing: border-box;
   /* border: none; */
@@ -41,6 +41,7 @@
 }
 
 .start-game-button-container h1 {
+  margin: 0px 10px;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
@@ -48,15 +49,26 @@
   color: #000000;
 }
 
+.start-game-button-container h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+
+}
+
+
 /* Query to set the gap according to the screen size */
 @media (max-height: 800px) {
   .start-game-button-container {
     height: 55%;
-    gap: 100px;
+    gap: 13%;
   }
 }
 
 .start-game-button {
+  margin-bottom: 5px;
   padding: 20px 50px;
   box-sizing: border-box;
   border: none;
