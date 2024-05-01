@@ -11,6 +11,8 @@ export const infoHabitaciones = [
     { roomName:"Aulas Sur", roomNumber: 10, style:{left:'77%', top:'84%'}}
 ]
 
+export const defaultBotNames = ["Intel", "WiFi", "Python", "Newton", "Grafo", "GPT"];
+
 export const casillasPorHabitacion = [
     { roomName:"Aulas Norte", roomNumber: 1, cells:[72,73,74,75,76,77] },
     { roomName:"Recepción", roomNumber: 2, cells:[107,108,109,131,132,133] },
