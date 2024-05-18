@@ -50,7 +50,7 @@
             <task id="83" uid="5d234fa4b2654aae9822fab3aebc11b4" name="Plan de gestión, análisis y diseño v1" meeting="false" start="2024-03-01" duration="15" complete="0" thirdDate="2024-03-24" thirdDate-constraint="0" expand="true"/>
             <task id="74" uid="7a4eb7a875eb42588b8dba056eadfeaa" name="Diagramas" meeting="false" start="2024-04-04" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="30" uid="c6e7bdef63cd4ff99350feb35159636b" name="Backend" meeting="false" start="2024-02-23" duration="67" complete="0" expand="false">
+        <task id="30" uid="c6e7bdef63cd4ff99350feb35159636b" name="Backend" meeting="false" start="2024-02-23" duration="72" complete="0" expand="true">
             <task id="31" uid="43ca7c0b327f4ea9a13e25f63a1ea0e0" name="modelo E/R" meeting="false" start="2024-02-23" duration="2" complete="0" expand="true">
                 <depend id="32" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -66,7 +66,30 @@
             <task id="69" uid="4e3db1268d454ddd91812150c28ee860" name="reparto y asignación cartas" meeting="false" start="2024-03-27" duration="26" complete="0" thirdDate="2024-04-13" thirdDate-constraint="0" expand="true">
                 <notes><![CDATA[selección de cartas solución (una de cada tipo), asignación a cada personaje 3 cartas]]></notes>
             </task>
-            <task id="44" uid="e3b06cc50bac4304b8da61c8a5dc3656" name="bots" color="#99ccff" meeting="false" start="2024-03-27" duration="26" complete="0" thirdDate="2024-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="44" uid="e3b06cc50bac4304b8da61c8a5dc3656" name="Bots" color="#99ccff" meeting="false" start="2024-03-26" duration="30" complete="0" thirdDate="2024-03-04" thirdDate-constraint="0" expand="false">
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+                <task id="110" uid="1d8836c2b94d4dbf8482e3e92c3bcce4" name="Bfs para el movimiento" meeting="false" start="2024-03-26" duration="4" complete="0" expand="true">
+                    <depend id="111" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="111" uid="4b56be77a90141f6b3ee189144cdbb44" name="Movimiento de los bots" meeting="false" start="2024-03-30" duration="8" complete="0" expand="true">
+                    <depend id="117" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="117" uid="418bf6f5cd224faf909829e35faf4129" name="Acusación/sospecha bots" meeting="false" start="2024-04-07" duration="2" complete="0" expand="true"/>
+                <task id="115" uid="806c06d514cd43e3a6392934130ae9b9" name="Actualización de la tarjeta bots" meeting="false" start="2024-04-12" duration="13" complete="0" expand="false">
+                    <task id="112" uid="d07cdafe416342209ba55857aca68d3f" name="Nivel 1 bots" meeting="false" start="2024-04-12" duration="7" complete="0" expand="true">
+                        <depend id="113" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="113" uid="1d8c3b4e7e504c2699382d8b7feb0993" name="Nivel 2 bots" meeting="false" start="2024-04-19" duration="3" complete="0" expand="true">
+                        <depend id="114" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="114" uid="71bed86f5c044ad6a71e554e04438730" name="Nivel 3 bots" meeting="false" start="2024-04-22" duration="3" complete="0" expand="true"/>
+                </task>
+                <task id="116" uid="0849f60fa9924dcb9090eedf5e2cdf7b" name="Creación bots" meeting="false" start="2024-04-20" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="118" uid="96a0350c8cb24986b2b58c4516d87ede" name="Pruebas de los bots" meeting="false" start="2024-04-25" duration="2" complete="0" expand="true">
+                <depend id="119" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="119" uid="89485a1ec1d84cc5bcc5a02322660bd1" name="Integración bots en partidas" meeting="false" start="2024-04-27" duration="8" complete="0" expand="true"/>
             <task id="67" uid="63a0e6a08bd548acb62e44321e5150f9" name="guardado estado entre rondas" meeting="false" start="2024-04-22" duration="8" complete="0" thirdDate="2024-04-09" thirdDate-constraint="0" expand="true"/>
             <task id="84" uid="6c05f50f7f384aa9a82ada4b2edde55b" name="pruebas¿?" meeting="false" start="2024-03-24" duration="1" complete="0" thirdDate="2024-03-24" thirdDate-constraint="0" expand="true"/>
         </task>
